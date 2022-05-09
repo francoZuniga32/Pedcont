@@ -129,7 +129,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Pantalla para llevar información power bi
+- [x] Pantalla para llevar información power bi
 - [ ] Cuenta regresiva para la fecha de los parciales
 - [ ] Cambiar el estilo del css
 - [ ] Agregar contenido de las materias
