@@ -23,12 +23,12 @@
 
 <!-- TABLE DE CONTENIDOS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de contenidos</summary>
   <ol>
     <li>
       <a href="#about-the-project">Sobre el proyecto</a>
       <ul>
-        <li><a href="#built-with">Construido con las tecnologias</a></li>
+        <li><a href="#built-with">Tecnologias</a></li>
       </ul>
     </li>
     <li>
@@ -75,8 +75,18 @@ o aprender a desarrollar por primera vez.
 <!-- Como empezar -->
 ## Como empezar
 
+Esto es un mini tutorial para los que quieran unirse al proyecto y aun no sepan "nada" sobre programar.<br>
+Si siguen los pasos no van deberian tener ningun problema.
+
 
 ### Prerequisitos
+
+* Tener algun IDE (Visual Studio Code recomendado) [VSC](https://code.visualstudio.com/)
+* Tener cuenta en Github [GitHub](https://github.com/)
+* Github Desktop [GithubDesktop](https://desktop.github.com/)
+
+Si usas git desde terminal, bienvenido seas.
+
 <!--
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -85,29 +95,30 @@ This is an example of how to list things you need to use the software and how to
   ```
 -->
 ### Instalacion
-<!--
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Al tener los requisitos previos ya se puede empezar, lo primero y principal avisar por discord a Newhunterino#4842 para la integración al proyecto.<br>
+
+* Al ser un proyecto web, no van a necesitar instalar dependencias ni packetes, por ahora.
+
+
+1. * Clonar el repositorio. 
+
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Jjcorsino/Pedcont
    ```
-3. Install NPM packages
+  * Desde la web
    ```sh
-   npm install
+   [Repositorio](https://github.com/Jjcorsino/Pedcont) 
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
--->
+
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
 
 
-<!-- USOS -->
+<!-- USOS 
 ## Usos
+-->
 <!--
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -120,9 +131,19 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Pantalla info bi
-- [ ] Cuenta regresiva parciales
-- [ ] Cambiar css
+- [ ] Pantalla para llevar información power bi
+- [ ] Cuenta regresiva para la fecha de los parciales
+- [ ] Cambiar el estilo del css
+- [ ] Agregar contenido de las materias
+  - [ ] Algebra
+  - [ ] Resolución de problemas y algoritmos
+  - [ ] Modelos y sistemas de la información
+  - [ ] Introducción a la computación
+- [ ] Agregar menu navegación
+- [ ] Agregar fechas parciales
+
+
+
 
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
@@ -138,10 +159,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 -->
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/Pedco-n't`)
-3. Commit your Changes (`git commit -m 'Add some Pedco-n't'`)
-4. Push to the Branch (`git push origin feature/Pedco-n't`)
-5. Open a Pull Request
+2. Create una rama con tus cambios (`git checkout -b feature/Pedco-n't`)
+3. Enviar tus cambios (`git commit -m 'Add some Pedco-n't'`)
+4. Push la rama (`git push origin feature/Pedco-n't`)
+5. Abrir una Pull Request
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
