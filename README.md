@@ -137,7 +137,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [ ] Resolución de problemas y algoritmos
   - [ ] Modelos y sistemas de la información
   - [ ] Introducción a la computación
-- [ ] Agregar menu navegación
+- [x] Agregar menu navegación
 - [x] Agregar fechas parciales
 - [ ] Analizar datos de los graficos con Pandas py
 - [ ] Modo oscuro

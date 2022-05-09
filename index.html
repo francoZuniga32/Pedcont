@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="icon" type="image/png" href="img/aa.jpg">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     body,
     h1,
@@ -28,12 +29,35 @@
   <!-- content define un container para un tamaño fijo centrado de todo el contenido de la página -->
   <div class="content" style="max-width:1400px">
 
+    <!-- Barra de navegación -->
+    <div class="top">
+      <div class="bar align">
+        <a class="bar-item button hide-medium hide-large right padding-large hover-white large white" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="bar-item button padding-large white">Inicio</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">Algebra</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">RPA</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">MSI</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">IC</a>
+        <a class="bar-item button hide-small padding-large hover-dark-grey"><button id="darkmode" class="switch">
+          <span><i class="ri-contrast-2-fill"></i></span>
+        </button></a>
+
+        
+      </div>
+    
+      <!-- Barra responsive para celulare -->
+      <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+        <a href="#" class="bar-item button padding-large">Algebra</a>
+        <a href="#" class="bar-item button padding-large">RPA</a>
+        <a href="#" class="bar-item button padding-large">MSI</a>
+        <a href="#" class="bar-item button padding-large">IC</a>
+      </div>
+    </div>
+
     <!-- Header -->
-    <header class="container center padding-32">
+    <header class="container center" style="padding:128px 16px">
       <a href="https://jjcorsino.github.io/Pedcont/"><img src="img/pedco.png" style="width:50%; height: 50%;" ></a>
-      <button id="darkmode" class="switch">
-        <span><i class="ri-contrast-2-fill"></i></span>
-      </button>
+      
     </header>
 
     <!-- Grid -->
@@ -196,6 +220,18 @@
   </footer>
 
 <script src="./scripts/script.js"></script>
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+      x.className += " show";
+    } else { 
+      x.className = x.className.replace(" show", "");
+    }
+  }
+  </script>
+  
 </body>
 
 </html>
