@@ -1997,3 +1997,12 @@ a {
 .hover-border-pale-blue:hover {
 	border-color: #e7ffff !important
 }
+.switch{
+	background: none;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 0
+}
