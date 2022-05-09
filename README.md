@@ -161,6 +161,6 @@ No hay licencia pa, todo free
 <!--
 Julian Corsino - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
  -->
-Project Link: [https://github.com/github_username/repo_name](https://github.com/Jjcorsino/Pedcont)
+Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont)
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
