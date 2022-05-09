@@ -38,10 +38,9 @@
         <li><a href="#installation">Instalacion</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Uso</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contribuciones</a></li>
-    <li><a href="#license">Licencian</a></li>
+    <li><a href="#license">Licencia</a></li>
     <li><a href="#contact">Contacto</a></li>
     <li><a href="#acknowledgments">Agradecimientos</a></li>
   </ol>
@@ -82,8 +81,8 @@ Si siguen los pasos no van deberian tener ningun problema.
 ### Prerequisitos
 
 * Tener algun IDE (Visual Studio Code recomendado) [VSC](https://code.visualstudio.com/)
-* Tener cuenta en Github [GitHub](https://github.com/)
-* Github Desktop [GithubDesktop](https://desktop.github.com/)
+* Tener cuenta en [GitHub](https://github.com/)
+* [GithubDesktop](https://desktop.github.com/)
 
 Si usas git desde terminal, bienvenido seas.
 
@@ -106,9 +105,9 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
    ```sh
    git clone https://github.com/Jjcorsino/Pedcont
    ```
-  * Desde la web
+   * Desde la web
    ```sh
-   [Repositorio](https://github.com/Jjcorsino/Pedcont) 
+   ir a https://github.com/Jjcorsino/Pedcont -> boton verde -> clonar
    ```
 
 
@@ -124,7 +123,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 -->
-<p align="right">(<a href="#top">Volver arriba</a>)</p>
 
 
 
@@ -140,7 +138,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [ ] Modelos y sistemas de la información
   - [ ] Introducción a la computación
 - [ ] Agregar menu navegación
-- [ ] Agregar fechas parciales
+- [x] Agregar fechas parciales
 - [ ] Analizar datos de los graficos con Pandas py
 
 
