@@ -1,20 +1,12 @@
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][https://github.com/Jjcorsino/Pedcont/graphs/contributors]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Jjcorsino/Pedcont">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+ 
 
 <h3 align="center">Pedco-n't</h3>
 
@@ -63,7 +55,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 -->
 La idea principal del proyecto es poder acceder a los datos de las materias sin depender de pedco. Al mismo tiempo se utiliza para poder practicar tecnologias
-o aprender a desarrollar por primera vez: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+o aprender a desarrollar por primera vez.
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
@@ -84,7 +76,7 @@ o aprender a desarrollar por primera vez: `github_username`, `repo_name`, `twitt
 ## Como empezar
 
 
-### Prerequisites
+### Prerequisitos
 <!--
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -138,7 +130,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- CONTRIBUCIONES-->
-## Contribuciones
+## Contribuir
 <!--
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -169,6 +161,6 @@ No hay licencia pa, todo free
 <!--
 Julian Corsino - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
  -->
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/github_username/repo_name](https://github.com/Jjcorsino/Pedcont)
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
