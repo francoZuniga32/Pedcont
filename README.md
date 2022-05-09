@@ -140,6 +140,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Agregar menu navegación
 - [x] Agregar fechas parciales
 - [ ] Analizar datos de los graficos con Pandas py
+- [ ] Modo oscuro
+
 
 
 
