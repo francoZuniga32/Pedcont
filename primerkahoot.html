@@ -2,90 +2,90 @@
 <html>
 
 <head>
-    <title>Pedco-n't</title>
-    <meta charset="UTF-8">
-    <meta name="description"
-        content="Peco-n't es una página web de practica creada en 2022 con el fin de no depender de pedco para ver las noticias, fechas de parciales, contenido de las materias, entre otras cosas">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Julian Corsino">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="icon" type="image/png" href="img/aa.jpg">
-    <style>
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            font-family: "Raleway", sans-serif
-        }
-    </style>
+  <title>Pedco-n't</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Peco-n't es una página web de practica creada en 2022 con el fin de no depender de pedco para ver las noticias, fechas de parciales, contenido de las materias, entre otras cosas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Julian Corsino">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="icon" type="image/png" href="img/aa.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Raleway", sans-serif
+    }
+  </style>
 </head>
 
 <body class="dark-grey">
 
-    <!-- content define un container para un tamaño fijo centrado de todo el contenido de la página -->
-    <div class="content" style="max-width:1400px">
+  <!-- content define un container para un tamaño fijo centrado de todo el contenido de la página -->
+  <div class="content" style="max-width:1400px">
 
-        <!-- Header -->
-        <header class="container center padding-32">
-            <a href="https://jjcorsino.github.io/Pedcont/"><img src="img/pedco.png" style="width:50%; height: 50%;"></a>
-        </header>
-
-        <!-- Grid -->
-        <div class="row">
-            
-            <!-- Noticias -->
-            <div class="col l12 s12">
-                <!-- Entrada de noticias -->
-                <div class="card-4 margin white">
-                    
-                    <img class="recuento" src="img/recuento.PNG" alt="msi" style="width:60%">
-                    <img class="recuento" src="img/recuento2.PNG" alt="msi" style="width:60%">
-                    <img class="recuento" src="img/recuento3.PNG" alt="msi" style="width:80%">
-                    <img class="recuento" src="img/recuento4.PNG" alt="msi" style="width:80%">
+    <div class="top">
+      <div class="bar align">
+        <a class="bar-item button hide-medium hide-large right padding-large hover-white large white"
+          href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
+            class="fa fa-bars"></i></a>
+        <a href="#" class="bar-item button padding-large white" style="border-radius: 50px;">Inicio</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">Algebra</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">RPA</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">MSI</a>
+        <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">IC</a>
+        <a class="bar-item button hide-small padding-large hover-dark-grey"><button id="darkmode" class="switch">
+            <span><i class="ri-contrast-2-fill"></i></span>
+          </button></a>
 
 
-
-                </div>
-                <hr>
-
-                <!-- Entrada de noticias 
-        <div class="card-4 margin white">
-          <img src="img/ic.png" alt="Ic" style="width:100%">
-          <div class="container">
-            <h3><b>Primer parcial IC</b></h3>
-            <h5>Grafico de notas, <span class="opacity">Mayo 6, 2022</span></h5>
-          </div>
-
-          <div class="container">
-            <p>Recuento de notas del primer parcial de Introducción a la computación. Los graficos muestran la cantidad total de alumnos, un recuento general
-              de notas, alumnos segun su sexo, recuento de notas por sexo, entre otros datos.<br> 
-              Los graficos se realizaron mediante Power Bi.</p>
-            <div class="row">
-              <div class="col m8 s12">
-                <p><button class="button padding-large white border"><b><a href="">Ver más »</a></b></button></p>
-              </div>
-             
-            </div>
-          </div>
-        </div>
-        Finalización noticias 
       </div>
-    -->
 
-                <!-- Noticia derecha -->
-                
+      <!-- Barra responsive para celulare -->
+      <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+        <a href="#" class="bar-item button padding-large">Algebra</a>
+        <a href="#" class="bar-item button padding-large">RPA</a>
+        <a href="#" class="bar-item button padding-large">MSI</a>
+        <a href="#" class="bar-item button padding-large">IC</a>
+      </div>
+    </div>
 
-            <!-- Fin pagina -->
+
+    <!-- Header -->
+    <header class="container center" style="padding:128px 16px">
+      <a href="https://jjcorsino.github.io/Pedcont/"><img src="img/pedco.png" style="width:50%; height: 50%;"></a>
+    </header>
+
+    <!-- Grid -->
+    <div class="row">
+
+      <!-- Noticias -->
+      <div class="col l12 s12">
+        <!-- Entrada de noticias -->
+        <div class="card-4 margin white">
+
+          <img class="recuento" src="img/recuento.PNG" alt="msi" style="width:60%">
+          <img class="recuento" src="img/recuento2.PNG" alt="msi" style="width:60%">
+          <img class="recuento" src="img/recuento3.PNG" alt="msi" style="width:80%">
+          <img class="recuento" src="img/recuento4.PNG" alt="msi" style="width:80%">
+
         </div>
+        <hr>
+        <!-- Fin pagina -->
+      </div>
+      <!-- Footer -->
+      <footer class="container dark-grey padding-32 margin-top">
 
-        <!-- Footer -->
-        <footer class="container dark-grey padding-32 margin-top">
+        <p>Powered by <a href="https://github.com/Jjcorsino" target="_blank">Julian Corsino</a></p>
+      </footer>
 
-            <p>Powered by <a href="https://github.com/Jjcorsino" target="_blank">Julian Corsino</a></p>
-        </footer>
+      <script src="./scripts/script.js"></script>
+      <script src="./scripts/nav.js"></script>
 
 </body>
 
