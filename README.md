@@ -141,6 +141,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [ ] Introducción a la computación
 - [ ] Agregar menu navegación
 - [ ] Agregar fechas parciales
+- [ ] Analizar datos de los graficos con Pandas py
+
 
 
 
@@ -171,7 +173,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENCIA -->
 ## Licencia
 
-No hay licencia pa, todo free
+No hay licencia pa, todo free. Usalo como quieras
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
 
