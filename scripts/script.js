@@ -6,13 +6,21 @@ const darkMode = d.querySelector('#darkmode')
 
 //? Events
 d.addEventListener('DOMContentLoaded', (e) =>{
-    countdownParcial('parcial', 'May 10, 2022', 'Pagoda', '15:00', '23/05/22, Rec. Primer Parcial', 'Algebra')
-    countdownParcial('algebra', 'May 23, 2022', 'Pagoda', '15:00', '23/05/22, Rec. Primer Parcial', 'Algebra')
+    countdownParcial('algebra', 'Jun 27, 2022', 'Pagoda', '15:00 Pm', '27/06/22, Segundo Parcial', 'Algebra')
+    countdownParcial('parcial', 'May 23, 2022', 'Pagoda', '15:00 Pm', '23/05/22, Rec. Primer Parcial', 'Algebra')
+    countdownParcial('rpa', 'May 16, 2022', 'Fai', '09:00 Am', '16/05/22, Primer Parcial', 'RPA')
+    countdownParcial('msi', 'May 28, 2022', 'Fai', '09:00 Am', '28/05/22, Primer Parcial', 'MSI')
+    countdownParcial('ic', 'May 13, 2022', 'Fai', '09:00 Am', '13/05/22, Promocion Primer Parcial', 'IC')
+    countdownParcial('ic rec', 'May 13, 2022', 'Fai', '09:00 Am', '13/05/22, Rec. Primer Parcial', 'IC')
+
+
+
+
 })
 
 darkMode.addEventListener('click', () => {
     if(d.body.className == 'dark-grey'){
-        d.body.classList.replace('dark-grey', 'white')
+        d.body.classList.replace('dark-grey', 'white');
     }else{
         d.body.classList.replace('white', 'dark-grey')
     }  
@@ -40,10 +48,11 @@ const countdownParcial = (id, date, classRoom, hour, msg, course) => {
             days = Math.floor(limitTime/(1000*60*60*24))
 
         element.innerHTML = `${msg}<br>
-                            Aula: ${classRoom} Hora: ${hour}
-                            Faltan ${days}<br> Dias
+                            Aula: ${classRoom}<br> 
+                            Horario: ${hour}<br>
+                            Faltan ${days} Dias
                             `
-        if(limitTime<0){
+        if(limitTime <= 0){
             clearInterval(timer)
             element.innerHTML = `Hoy es el parcial de ${course}`
         }
