@@ -32,7 +32,7 @@
     <!-- Barra de navegación -->
     <div class="top">
       <div class="bar align">
-        <a class="bar-item button hide-medium hide-large right padding-large hover-white large white" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a class="bar-item button hide-medium hide-large right padding-large hover-white large white" href="javascript:void(0);" onclick="hMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         <a href="#" class="bar-item button padding-large white" style="border-radius: 50px;">Inicio</a>
         <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">Algebra</a>
         <a href="#" class="bar-item button hide-small padding-large hover-dark-grey">RPA</a>
@@ -143,9 +143,9 @@
           <ul class="ul hoverable white">
             <li class="padding-16">
               <span class="large">Algebra</span><br>
-              <span><del>04 Mayo 2022 - Primer parcial</del></span><br>
-              <span>23 Mayo 2022 - RECUPERATORIO Primer parcial</span><br>
-              <span>27 Junio 2022 - Segundo parcial</span>
+              <span id="algebra"></span><br>
+              <span>27 Junio 2022 - Segundo parcial</span><br>
+              <span id="parcial"></span>
 
             </li>
             <li class="padding-16">
@@ -220,8 +220,7 @@
   </footer>
 
 <script src="./scripts/script.js"></script>
-<script src="./scripts/nav.js"></script>
-  
+
 </body>
 
 </html>
