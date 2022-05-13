@@ -6,12 +6,10 @@ const darkMode = d.querySelector('#darkmode')
 
 //? Events
 d.addEventListener('DOMContentLoaded', (e) =>{
-    countdownParcial('algebra', 'Jun 27, 2022', 'Pagoda', '15:00 Pm', '27/06/22, Segundo Parcial', 'Algebra')
-    countdownParcial('parcial', 'May 23, 2022', 'Pagoda', '15:00 Pm', '23/05/22, Rec. Primer Parcial', 'Algebra')
-    countdownParcial('rpa', 'May 16, 2022', 'Fai', '09:00 Am', '16/05/22, Primer Parcial', 'RPA')
-    countdownParcial('msi', 'May 28, 2022', 'Fai', '09:00 Am', '28/05/22, Primer Parcial', 'MSI')
-    countdownParcial('ic', 'May 13, 2022', 'Fai', '09:00 Am', '13/05/22, Promocion Primer Parcial', 'IC')
-    countdownParcial('ic rec', 'May 13, 2022', 'Fai', '09:00 Am', '13/05/22, Rec. Primer Parcial', 'IC')
+    countdownParcial('algebra', 'Jun 27, 2022', 'Pagoda', '15:00 Pm', '<b>27/06/22</b>, Segundo Parcial', 'Algebra')
+    countdownParcial('parcial', 'May 23, 2022', 'Pagoda', '15:00 Pm', '<b>23/05/22</b>, Rec. Primer Parcial', 'Algebra')
+    countdownParcial('rpa', 'May 19, 2022', 'Fai', '20:00 pm', '<b>19/05/22</b>, Primer Parcial', 'RPA')
+    countdownParcial('msi', 'May 28, 2022', 'Fai', '09:00 Am', '<b>28/05/22</b>, Primer Parcial', 'MSI')
 
 
 
