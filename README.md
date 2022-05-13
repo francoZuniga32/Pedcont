@@ -50,9 +50,7 @@
 
 <!-- Sobre el proyecto -->
 ## Sobre el proyecto
-<!--
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
--->
+
 La idea principal del proyecto es poder acceder a los datos de las materias sin depender de pedco. Al mismo tiempo se utiliza para poder practicar tecnologias
 o aprender a desarrollar por primera vez.
 
@@ -80,19 +78,11 @@ Si siguen los pasos no van deberian tener ningun problema.
 
 ### Prerequisitos
 
-* Tener algun IDE (Visual Studio Code recomendado) [VSC](https://code.visualstudio.com/)
 * Tener cuenta en [GitHub](https://github.com/)
+* Tener algun IDE (Visual Studio Code recomendado) [VSC](https://code.visualstudio.com/)
 * [GithubDesktop](https://desktop.github.com/)
 
-Si usas git desde terminal, bienvenido seas.
 
-<!--
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
--->
 ### Instalacion
 
 Al tener los requisitos previos ya se puede empezar, lo primero y principal avisar por discord a Newhunterino#4842 para la integración al proyecto.<br>
@@ -115,33 +105,30 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
 
 
 
-<!-- USOS 
-## Usos
--->
-<!--
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
--->
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Pantalla para llevar información power bi
-- [ ] Cuenta regresiva para la fecha de los parciales
+- [x] Cuenta regresiva para la fecha de los parciales
+  - [ ] Agregar función de tachar los parciales automaticamente si la fecha ya paso
+  - [ ] Poner todas las fechas en el Js
 - [ ] Cambiar el estilo del css
+  - [ ] Agregar constrante al nav
 - [ ] Agregar contenido de las materias
   - [ ] Algebra
-  - [ ] Resolución de problemas y algoritmos
-  - [ ] Modelos y sistemas de la información
-  - [ ] Introducción a la computación
+  - [x] Resolución de problemas y algoritmos
+  - [x] Modelos y sistemas de la información
+  - [x] Introducción a la computación
+- [ ] Agregar pantalla para cada una de las materias
 - [x] Agregar menu navegación
 - [x] Agregar fechas parciales
 - [ ] Analizar datos de los graficos con Pandas py
-- [ ] Modo oscuro
-
+- [x] Modo oscuro
+  - [ ] Acomodar el modo oscuro para que funcione correctamente
+- [ ] Pasar graficos a Chartjs o amCharts
+- [ ] Pantalla para datos de las materias
 
 
 
@@ -154,12 +141,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- CONTRIBUCIONES-->
 ## Contribuir
-<!--
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
--->
 1. Fork the Project
 2. Create una rama con tus cambios (`git checkout -b feature/Pedco-n't`)
 3. Enviar tus cambios (`git commit -m 'Add some Pedco-n't'`)
@@ -181,9 +163,7 @@ No hay licencia pa, todo free. Usalo como quieras
 
 <!-- CONTACTo -->
 ## Contacto
-<!--
-Julian Corsino - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
- -->
+
 Project Link: [https://github.com/Jjcorsino/Pedcont](https://github.com/Jjcorsino/Pedcont)
 
 <p align="right">(<a href="#top">Volver arriba</a>)</p>
