@@ -116,8 +116,8 @@ Al tener los requisitos previos ya se puede empezar, lo primero y principal avis
   - [ ] Poner todas las fechas en el Js
 - [ ] Cambiar el estilo del css
   - [ ] Agregar constrante al nav
-- [ ] Agregar contenido de las materias
-  - [ ] Algebra
+- [x] Agregar contenido de las materias
+  - [x] Algebra
   - [x] Resolución de problemas y algoritmos
   - [x] Modelos y sistemas de la información
   - [x] Introducción a la computación
